@@ -61,12 +61,12 @@ public class Main {
 
 
         System.out.println("Задача №4");
-        for (int i =0; i< cars.length; i++){
+        for (int i =0; i< cars.length; i++) {
             if (cars[i] % 2 != 0){
                 cars[i]++;
-                System.out.println(Arrays.toString(cars));
             }
         }
+        System.out.println(Arrays.toString(cars));
 
 
     }
